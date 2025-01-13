@@ -1,13 +1,13 @@
 import Foundation
 import UIKit
 
-internal final class ThreeDAuthenticator {
+@objc public class ThreeDAuthenticator: NSObject {
     private let apiProvider = APIProvider()
     private let threeDManager: ThreeDManager
 
     let style: Shift4Style
 
-    init(style: Shift4Style, threeDManager: ThreeDManager) {
+    @objc public init(style: Shift4Style, threeDManager: ThreeDManager) {
         self.style = style
         self.threeDManager = threeDManager
     }

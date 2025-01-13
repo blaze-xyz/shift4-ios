@@ -2,14 +2,14 @@ import Foundation
 import Shift43DS
 import UIKit
 
-internal final class ThreeDManager {
+@objc public class ThreeDManager: NSObject {
     private var threeDS2Service: ThreeDS2Service?
     private var sdkTransaction: Transaction?
     private var sdkProgressDialog: ProgressDialog?
     private let style: Shift4Style
     private var statusReceiver: StatusReceiver!
 
-    init(style: Shift4Style) {
+    @objc public init(style: Shift4Style) {
         self.style = style
     }
 

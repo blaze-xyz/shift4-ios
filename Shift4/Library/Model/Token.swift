@@ -19,19 +19,19 @@ public class Token: NSObject, Codable {
         case threeDSecureInfo
     }
 
-    @objc public let id: String
-    public let created: Int?
-    @objc public let objectType: String?
-    @objc public let first6: String?
-    @objc public let last4: String?
-    @objc public let fingerprint: String?
-    @objc public let expirationMonth: String?
-    @objc public let expirationYear: String?
-    @objc public let cardholder: String?
-    @objc public let brand: String
-    @objc public let type: String?
-    @objc public let country: String?
-    public let used: Bool?
+    @objc public var id: String
+    public var created: Int?
+    @objc public var objectType: String?
+    @objc public var first6: String?
+    @objc public var last4: String?
+    @objc public var fingerprint: String?
+    @objc public var expirationMonth: String?
+    @objc public var expirationYear: String?
+    @objc public var cardholder: String?
+    @objc public var brand: String
+    @objc public var type: String?
+    @objc public var country: String?
+    public var used: Bool?
 
-    @objc public let threeDSecureInfo: ThreeDSecureInfo?
+    @objc public var threeDSecureInfo: ThreeDSecureInfo?
 }
