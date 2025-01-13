@@ -14,5 +14,7 @@ Pod::Spec.new do |s|
   }
   s.source_files        = "Shift4/Library/**/*.{h,m,swift}"
   s.vendored_frameworks = "Shift4/Shift43DS.xcframework"
-  s.resources = 'Shift4/Library/Resources/**/*.{strings,png,ttf,xcassets}'
+  s.resource_bundles = {
+    'Shift4' => ['Shift4/Library/Resources/**/*.{strings,png,ttf,xcassets}']
+  }
 end
