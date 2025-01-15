@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8139FBF72D3750BF00136A89 /* Shift43DS.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8139FBF62D3750BF00136A89 /* Shift43DS.xcframework */; };
 		850BE8FC28D09C1500EB650A /* ipworks3ds_sdk.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8513C62528BE53C700558D95 /* ipworks3ds_sdk.xcframework */; };
 		850BE8FD28D09C1500EB650A /* ipworks3ds_sdk.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8513C62528BE53C700558D95 /* ipworks3ds_sdk.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		850BE8FF28D09C1B00EB650A /* ipworks3ds_sdk.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8513C62028BE484100558D95 /* ipworks3ds_sdk.xcframework */; };
@@ -59,6 +60,7 @@
 		27315F1A9DDF174D280AC6C0 /* Pods_Example_ObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example_ObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49F00DF6B4BA4EE086069676 /* Pods_UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E3FAEA719CDF3EA8431282C /* Pods-UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UITests.debug.xcconfig"; path = "Target Support Files/Pods-UITests/Pods-UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8139FBF62D3750BF00136A89 /* Shift43DS.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Shift43DS.xcframework; sourceTree = "<group>"; };
 		85033B19263AE05A005C0623 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Main.strings; sourceTree = "<group>"; };
 		85033B1D263AE05A005C0623 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		85033B1E263AE05A005C0623 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Main.strings; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8513C5A228B7B95100558D95 /* Pods_Example.framework in Frameworks */,
+				8139FBF72D3750BF00136A89 /* Shift43DS.xcframework in Frameworks */,
 				850BE8FF28D09C1B00EB650A /* ipworks3ds_sdk.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -118,6 +121,7 @@
 		657C8E419FFFF06C898644EE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8139FBF62D3750BF00136A89 /* Shift43DS.xcframework */,
 				0D2F171D934848256195848D /* Pods_Example.framework */,
 				27315F1A9DDF174D280AC6C0 /* Pods_Example_ObjC.framework */,
 				49F00DF6B4BA4EE086069676 /* Pods_UITests.framework */,
